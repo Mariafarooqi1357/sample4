@@ -8,7 +8,7 @@ html,body{
     width: 100%;
 }
 
-div{
+div.container{
     text-align: center;
     color: rgb(163, 23, 124);
     font-size: 30px;
@@ -17,11 +17,33 @@ div{
     background-color: rgb(224, 211, 221);
 }
 
+div.ml{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(219, 189, 212);
+}
+
 img{
     display: block;
     margin: 0 auto;
     width: 600px;
     height: 600px;
     border-radius: 100px;
+    background-color: rgb(163, 23, 124);    
+}
+
+#a{
+    color: rgb(163, 23, 124);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'helvetica', sans-serif;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    height: 300px;
+    width: 300px;
     background-color: rgb(163, 23, 124);    
 }
