@@ -45,5 +45,72 @@ video{
     margin-left: auto;
     height: 300px;
     width: 300px;
-    background-color: rgb(163, 23, 124);    
+    background-color: rgb(255, 0, 183);    
+}
+
+button{
+    font-size: 40px;
+    font-family: 'fantasy', sans-serif;
+    color: rgb(119, 87, 88);
+    background-color: rgb(255, 0, 183); 
+    margin-left: 550px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: maroon;
+    color: seagreen
+}
+
+
+ 
+div.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 183);
+
+    position: absolute;
+        left: 30%;
+        transform:translateX(-50%);
+        top: 145.98788899%;
+}
+
+div.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(73, 114, 78);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+#c{
+    color: rgb(163, 23, 124);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'helvetica', sans-serif;
+    position: absolute;
+    top : 900px;
+    bottom :50%;
+    left: 600px;
+    transform: translateX(-50%);
+
+}
+
+
+#d{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'papyrus', dingbats, fantasy;
+}
+
+#d span{
+    color: rgb(23, 123, 163);
+    font-size: 50px;
+    font-family: 'kurale', fantasy, sans-serif;
 }
